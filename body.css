@@ -3,17 +3,28 @@ body{
 	background-color:#3AAFA9;
 	color:#FFFFFF;
 }
-.headers {
+h1 {
 	text-align: center;
-	font-family: "Futura PT Cond Extra Bold", "Futura PT Extra Bold";
-	font-style: normal;
-	letter-spacing: 4px;
-	font-weight: 300;
+	font-size: 70px
+}
+h2 {
+	text-align: center;
+	font-size: 30px
+}
+#blurb{
+	background: #333333;
+	width: 50%;
+	align-content: center;
 }
 .navbar{
 	background: #A9B7DB;
 	box-shadow: 3px 3px 5px 6px #000000;
 }
+.bodytext{
+	align-self: auto;
+}
+
+
 
 /* Style the navbar */
 #navbar {
@@ -31,10 +42,6 @@ body{
   text-decoration: none;
 }
 
-/* Page content */
-.content {
-  padding: 16px;
-}
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
