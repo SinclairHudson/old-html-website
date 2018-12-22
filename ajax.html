@@ -27,6 +27,17 @@
 			</div>
 		</div>
 	<h4 class="tk-futura-pt">How It Works:</h4>
+	<div class="row">
+		<div class="col-12">
+			Ajax can currently be broken down into two parts: Voice Recognition and Natural Language Processing. The whole operations starts with a
+			continuously running python program that detects noise, which might be a command. The noise is captured, and run through an LSTM Neural Network,
+			which partitions the recording by spaces, hoping to capture each word individually. Then each word is run through a CLSTM Neural Network, which
+			determines what each word is, based the audio data from the mic and the words that came before it. The result is a string of words, being the 
+			command. That command is then run through a simple NLP RNN, that classifies the string into one of the specified commands. The program then ultimately
+			executes the desired command.
+		</div>
+	</div>
+	<h4 class="tk-futura-pt">Video: </h4>
 	<h4 class="tk-futura-pt">More Projects:</h4>
 	<div class="row">
 		<div class="col-4">
