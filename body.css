@@ -58,6 +58,7 @@ a{
 	width: 100%;
 	height: auto;
 }
+
 .buttons{
 	text-align: center;
 }
@@ -88,4 +89,32 @@ hr{
   content: "";
   clear: both;
   display: table;
+}
+
+/* Dropdown Button */
+.dropdown{
+	width: 100px;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.menuicon{
+	width: 100%;
+}
+.menuitems{
+	width:100%;
+}
+ul {
+  display: inline;
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+ul li ul{
+	display: none;
+}
+ul li:hover ul {
+	display: block;
+	margin: 0;
+	padding: 0;
 }
