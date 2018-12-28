@@ -117,4 +117,5 @@ ul li:hover ul {
 	display: block;
 	margin: 0;
 	padding: 0;
+	vline-height: 1em
 }
