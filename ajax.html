@@ -33,40 +33,55 @@
 		<h3 class="tk-futura-pt">AJAX Voice Recognition</h3>
 		<div class="row">
 			<div class="col-4">
-				<img src="img/profile.jpg" class="img1" alt="My Face">
+				<img src="img/AJAX/Yeti.jpg" class="img1" alt="Blue Yeti Microphone">
 			</div>
 			<div class="col-8">
 				This is my longest ongoing project, which all started with a frustration with a horrible voice recognition library. I decided to give
-				it a shot myself, using Google TensorFlow Maching Learning. Currently, Ajax is my Personal Assistant that I have built around this
-				voice recognition system. You can find all my code on my GitHub, right 
-				<u><c href="https://github.com/SinclairHudson/Juno-Tensorflow-Speech-Recognition">here.</c></u>
+				it a shot myself, using Google TensorFlow Maching Learning. Currently, I have some parts working with a sub-optimal accuracy, and I'm looking into different models and methods to achieve great voice recognition. You can find all my code on my GitHub, right 
+				<u><c href="https://github.com/SinclairHudson/AJAX">here.</c></u>
 			</div>
 		</div>
+	<h4>What I Learned:</h4>
+	<div class="row">
+		<ul>
+			<li>Implementing and testing sequence classification neural networks</li>
+			<li>Google Tensorflow, NumPy, Pyaudio, and many other small libraries</li>
+			<li>Patience</li>
+			<li>A Research, Build, Test cycle to complete a project</li>
+		</ul>
+	</div>
 	<h4 class="tk-futura-pt">How It Works:</h4>
 	<div class="row">
 		<div class="col-12">
-			Ajax can currently be broken down into two parts: Voice Recognition and Natural Language Processing. The whole operations starts with a
-			continuously running python program that detects noise, which might be a command. The noise is captured, and run through an LSTM Neural Network,
-			which partitions the recording by spaces, hoping to capture each word individually. Then each word is run through a CLSTM Neural Network, which
-			determines what each word is, based the audio data from the mic and the words that came before it. The result is a string of words, being the 
-			command. That command is then run through a simple NLP RNN, that classifies the string into one of the specified commands. The program then ultimately
-			executes the desired command.
+			Currently, I've only trained a word classifier working, capable at differentiating 18 different words apart, with about 92% accuracy. The idea was to determine where the word breaks were, partition the sound file into words, and then classify from there. However, with a low classification accuracy,
+			I'm currently looking into a new approach, using a sequence to sequence LSTM network to turn the sound byte into phenomes first. The good news is that I already have the data; I wrote a python script that automatically labels and records my voice, making data collection easy.
 		</div>
 	</div>
-	<h4 class="tk-futura-pt">Video: </h4>
+	<h4>Pictures:</h4>
+	<div class="row">
+		<div class="col-5">
+			<img src="img/AJAX/NN.jpg" style="bottom: 0;" class="img1">
+		</div>
+		<div class="col-7">
+			<img src="img/Construction/under-construction-banner.svg" class="img1">
+		</div>
+	</div>
 	<h4 class="tk-futura-pt">More Projects:</h4>
 	<div class="row">
 		<div class="col-4">
 			This Website
-			<img src="img/website.jpg" class="img1" alt="Website">
+			<a href="this-website.html">
+			<img src="img/Website/website.jpg" class="img1" alt="Website"></a>
 		</div>
 		<div class="col-4">
-			This Website
-			<img src="img/website.jpg" class="img1" alt="Website">
+			DIY Portable Speaker
+			<a href="diy-speaker.html">
+			<img src="img/Speaker/SpeakerBanner.jpg" class="img1" alt="DIY Speaker"></a>
 		</div>
 		<div class="col-4">
-			This Website
-			<img src="img/website.jpg" class="img1" alt="Website">
+			ScoutTech Software
+			<a href="ScoutTechSoft.html">
+			<img src="img/Adding/AddingSoft.jpg" class="img1" alt="Website"></a>
 		</div>
 	</div>
 	<hr>
@@ -74,7 +89,7 @@
 		<div class="col-6">
 			Contact
 			<br>
-			<a>hudson.sinclair00@gmail.com</a>
+			<a>hudson.sinclair00 at gmail.com</a>
 			<br>
 			<a>000 000 0000</a>
 		</div>
@@ -82,8 +97,8 @@
 			Connect
 			<div class="row">
 				<div class="col-4"><a href="https://github.com/SinclairHudson">GitHub</a></div>
-				<div class="col-4"><a>Devpost</a></div>
-				<div class="col-4"><a>Linkedin</a></div>
+				<div class="col-4"><a href="https://devpost.com/SinclairHudson">Devpost</a></div>
+				<div class="col-4"><a href="https://www.linkedin.com/in/sinclair-h-490002130/">Linkedin</a></div>
 			</div>
 		</div>	
 	</div>
