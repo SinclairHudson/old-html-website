@@ -34,6 +34,7 @@ h4 {
 	font-size: 5vw;
 	color:#3AAFA9;
 	margin-bottom: 3vw;
+	padding: 15px;
 }
 a{
 	color: #3AAFA9;
@@ -157,11 +158,11 @@ ul li:hover ul {
 	.banner {
 		width: 100%;
 	}
-	.banner a img{
+	.banner img{
 		border: 5px solid #1AA5A7;
 		object-fit: cover;
 		width: 100%;
-		height: 300px;
+		height: 500px;
 		overflow: hidden;
 	}
 	.col-4{
