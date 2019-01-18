@@ -7,7 +7,7 @@ body{
 	background-color:#153946;
 	color:#DEF2F1;
 	margin-right: 15%;
-	font-size: 2.2vw;
+	font-size: 2.0vw;
 }
 h1 {
 	color:#FEFFFF;
@@ -90,7 +90,7 @@ hr{
   padding: 15px;
 }
 
-.row::after {
+.row::after { /*resets natural flow of page*/
   content: "";
   clear: both;
   display: table;
@@ -139,16 +139,24 @@ ul li:hover ul {
     height: 100%;
     border: 0;
 }
+.banner {
+	float: left;
+  	padding: 15px;
+	width: 33.33%;
+	display: table;
+	content: "";
+}
 
 @media screen and (max-width: 1100px) { /* Mobile view */
-  body{
+
+body{
 	margin-left: 10%;
 	margin-right: 10%;
-}
-	.col-4 {
-	  width: 50%;
 	}
-	.img1{
+.banner {
+	width: 50%;
+}
+.img1{
 	border: 3px solid #1AA5A7;
 	width: 100%;
 	height: auto;
