@@ -98,7 +98,8 @@ hr{
 
 /* Dropdown Button */
 .dropdown{
-	width: 100px;
+	width: 10%;
+	max-width: 100px;
 	position: fixed;
 	left: 0;
 	top: 0;
