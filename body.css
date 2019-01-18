@@ -39,6 +39,11 @@ a{
 	color: #3AAFA9;
 	font-size: 1.4vw;
 }
+
+.link{
+	font-size: 2.2vw;
+	color:#DEF2F1;
+}
 .navbar{
 	background: #A9B7DB;
 	box-shadow: 3px 3px 5px 6px #000000;
@@ -132,4 +137,10 @@ ul li:hover ul {
     width: 100%;
     height: 100%;
     border: 0;
+}
+
+@media screen and (max-width: 620px) { /* Mobile view */
+  .col-4 {
+	  width: 100%;
+	}
 }
